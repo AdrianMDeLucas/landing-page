@@ -3,45 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Solutions</title>
+    <title>Soluciones Profesionales</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1e3a5f;
+            color: #fff;
+            padding: 1rem 2rem;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-family: 'Merriweather', serif;
+            font-size: 1.8rem;
+        }
+
+        header ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        header ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        #hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('office.jpg') no-repeat center center/cover;
+            color: #fff;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 1rem;
+        }
+
+        #hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        #hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        #hero button {
+            background-color: #d4af37;
+            color: #fff;
+            border: none;
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        #hero button:hover {
+            background-color: #b28b2d;
+        }
+
+        section {
+            padding: 3rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        #services {
+            text-align: center;
+        }
+
+        #services .card {
+            background: #f9f9f9;
+            padding: 2rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 1rem 0;
+            transition: transform 0.3s;
+        }
+
+        #services .card:hover {
+            transform: translateY(-5px);
+        }
+
+        #about img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+
+        footer {
+            background-color: #1e3a5f;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav>
-            <h1>Digital Solutions</h1>
+            <h1>Soluciones Profesionales</h1>
             <ul>
                 <li><a href="#hero">Inicio</a></li>
                 <li><a href="#services">Servicios</a></li>
-                <li><a href="#about">Sobre nosotros</a></li>
+                <li><a href="#about">Nosotros</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <section id="hero">
-        <h2>Impulsa tu presencia digital</h2>
-        <p>Ofrecemos soluciones para llevar tu negocio al siguiente nivel.</p>
+        <h2>Confianza y Excelencia</h2>
+        <p>Proporcionamos soluciones legales y financieras para tu negocio.</p>
         <button>Contáctanos</button>
     </section>
     <section id="services">
         <h3>Nuestros Servicios</h3>
         <div class="card">
-            <h4>Diseño Web</h4>
-            <p>Webs modernas y funcionales.</p>
+            <h4>Asesoría Legal</h4>
+            <p>Protege tus intereses con nuestros expertos legales.</p>
         </div>
         <div class="card">
-            <h4>SEO</h4>
-            <p>Mejoramos tu posición en buscadores.</p>
+            <h4>Consultoría Financiera</h4>
+            <p>Optimiza tus inversiones y toma decisiones informadas.</p>
         </div>
         <div class="card">
-            <h4>Redes Sociales</h4>
-            <p>Gestión profesional de tus redes.</p>
+            <h4>Gestión de Contratos</h4>
+            <p>Elaboración y revisión de contratos empresariales.</p>
         </div>
     </section>
     <section id="about">
         <h3>Sobre Nosotros</h3>
-        <p>Somos una agencia comprometida con la excelencia digital.</p>
-        <img src="about-us.jpg" alt="Equipo trabajando">
+        <p>En Soluciones Profesionales, combinamos experiencia y dedicación para ofrecer un servicio de calidad.</p>
+        <img src="team.jpg" alt="Nuestro equipo">
     </section>
     <section id="contact">
         <h3>Contáctanos</h3>
@@ -53,7 +166,7 @@
         </form>
     </section>
     <footer>
-        <p>&copy; 2025 Digital Solutions. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Soluciones Profesionales. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
